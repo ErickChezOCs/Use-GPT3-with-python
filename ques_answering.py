@@ -1,7 +1,7 @@
 # Importing Dependencies
 from chronological import read_prompt, fetch_max_search_doc, main, cleaned_completion
 
-# Creates a seamntic search over the given document 'animal.txt' to fetch the top-3 responses 
+# Creates a semantic search over the given document 'animal.txt' to fetch the top-3 responses 
 async def fetch_top_n_animals(query, n):
 
     # function read_prompt takes in the text file animals.txt and split on ',' -- similar to what you might do with a csv file

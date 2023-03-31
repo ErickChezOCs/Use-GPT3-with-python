@@ -12,7 +12,7 @@ async def summarization_example():
     
     # Calling the completion method along with the specific GPT-3 parameters
     # Default Config: max_tokens=100, engine="davinci", temperature=0.5, top_p=1, frequency_penalty=0.2, stop=["\n\n"]
-    completion_summarize = await cleaned_completion(prompt_summarize, max_tokens=100, engine="davinci", temperature=0.5, top_p=1, frequency_penalty=0.2, stop=["\n\n"])
+    completion_summarize = await cleaned_completion(prompt_summarize, max_tokens=50, engine="ada", temperature=0.5, top_p=1, frequency_penalty=0.2, stop=["\n\n"])
     
     # Return the completion response
     return completion_summarize

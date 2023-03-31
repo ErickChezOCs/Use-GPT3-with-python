@@ -1,2 +1,4 @@
 .env
 prompts
+ques_answering.py
+semantic_search.py
