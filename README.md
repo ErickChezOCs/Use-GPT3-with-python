@@ -1,0 +1,2 @@
+Using Generative Pre-Trained Transformer 3, with python exemple from the book 'GPT3 the ultimate guide' by Sandra Kublik. Packt Publishing- February 2023
+You need to install chronological on you local machine.
